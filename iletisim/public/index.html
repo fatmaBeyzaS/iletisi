@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim Formu</title>
+  <link rel="stylesheet" href="iletisim.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container mt-5" style="width: 30%; padding: 60x;">
+      <div class="card" style="background-color: #925FE2; border-radius: 5px; padding: 25px;">
+        <h5>Bizimle İletişime Geçin</h5>
+      </div>
+      <div class="card-header" style="background-color: #e7ecff;">
+        <div class="group" style="width: 100%; padding: 10px;">
+          <input type="text" class="form-control" placeholder="Kullanıcı Adı">
+        </div>
+        <div class="input">
+          <input type="text" class="form-control" placeholder="Mesajınızı Yazın">
+        </div>
+        <div style="text-align: left;">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" class="btn" style="color: #2148c0; background-color: #fff; border: 1px solid #ccc;">
+            GÖNDER
+          </button>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="modal-title" id="exampleModalLabel"></p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="group" style="color: black;">
+              <p>Mesajınızı dikkate alınacaktır.</p>
+              <p>Katkılarınız için teşekkür ederiz.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button style="color: #2148c0; background-color: #fff; border: 1px solid #ccc;" type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
